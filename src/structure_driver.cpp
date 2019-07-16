@@ -396,7 +396,7 @@ int main(int argc, char **argv) {
     /** @brief The target resolution for streamed depth frames. @see StructureCoreDepthResolution */
     settings.structureCore.depthResolution = ST::StructureCoreDepthResolution::SXGA;
     /** @brief The preset depth range mode for streamed depth frames. Modifies the min/max range of the depth values. */
-    settings.structureCore.depthRangeMode = ST::StructureCoreDepthRangeMode::Default;
+    settings.structureCore.depthRangeMode = ST::StructureCoreDepthRangeMode::Medium;
     /** @brief The target resolution for streamed depth frames. @see StructureCoreInfraredResolution
         Non-default infrared and visible resolutions are currently unavailable.
     */
